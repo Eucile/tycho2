@@ -1,0 +1,117 @@
+body {
+  font-family: "Hind Siliguri", sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+.header {
+  display: flex;
+  margin: 10px auto;
+  width: 936px;
+  flex-flow: column wrap;
+}
+.header .home {
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.header .home .cart {
+  text-transform: lowercase;
+  word-spacing: 5px;
+}
+.header .home a {
+  text-decoration: none;
+  color: #1a1a1a;
+}
+.header .home a:hover {
+  color: #e6e6e6;
+}
+.header .logo {
+  align-self: center;
+}
+
+.products {
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-wrap: wrap;
+  width: 936px;
+  justify-content: space-around;
+}
+.products img {
+  min-width: 240px;
+}
+
+.product-card {
+  flex: 1 16%;
+  padding: 35px;
+}
+
+.product-image img {
+  max-width: 100%;
+}
+
+.product-info {
+  margin-top: auto;
+}
+
+.footer {
+  text-align: center;
+}
+.footer p {
+  text-align: center;
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  width: 936px;
+  margin: 10px auto;
+}
+.flex-container .header {
+  margin-bottom: 50px;
+}
+.flex-container .header .logo img {
+  max-width: 100%;
+}
+.flex-container ul {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  width: 846px;
+  margin-right: 20px;
+  list-style: none;
+  text-transform: uppercase;
+}
+.flex-container ul a {
+  text-decoration: none;
+  color: #e6e6e6;
+}
+.flex-container ul a:hover {
+  color: #2F95DE;
+}
+
+@media screen and (max-width: 800px) {
+  .product-card {
+    flex: 1 21%;
+  }
+
+  .flex-container {
+    width: 100%;
+  }
+
+  .products {
+    width: auto;
+  }
+  .products .product-card {
+    width: auto;
+  }
+}
+
+/*# sourceMappingURL=output.css.map */
