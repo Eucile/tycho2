@@ -72,10 +72,13 @@ img {
   flex-flow: column wrap;
   justify-content: space-between;
   width: 936px;
-  margin: 10px auto;
+  margin: 0px auto;
 }
 .flex-container .header {
-  margin-bottom: 50px;
+  margin-bottom: 35px;
+}
+.flex-container .header .logo {
+  margin-right: 5px;
 }
 .flex-container .header .logo img {
   max-width: 100%;
@@ -104,6 +107,18 @@ img {
 
   .flex-container {
     width: 100%;
+  }
+  .flex-container .header {
+    width: 100%;
+  }
+  .flex-container nav ul {
+    display: flex;
+    width: auto;
+    flex-flow: row wrap;
+    margin: 0 auto;
+  }
+  .flex-container nav ul li {
+    margin-right: 10px;
   }
 
   .products {

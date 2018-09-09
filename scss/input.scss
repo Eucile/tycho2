@@ -11,7 +11,7 @@ img {
 .header {
   display: flex;
   margin: 10px auto;
-  width: 936px;;
+  width: 936px;
   flex-flow: column wrap;
   .home {
     display: flex;
@@ -73,10 +73,11 @@ img {
   justify-content: space-between;
 
   width: 936px;
-  margin: 10px auto;
+  margin: 0px auto;
   .header {
-    margin-bottom: 50px;
+    margin-bottom: 35px;
     .logo {
+      margin-right: 5px;
       img {
         max-width: 100%
       }
@@ -107,8 +108,21 @@ img {
   }
   .flex-container {
     width: 100%;
+    .header {
+      width: 100%;
+    }
+    nav {
+      ul{
+      display: flex;
+      width: auto;
+      flex-flow: row wrap;
+      margin: 0 auto;
+      li {
+        margin-right: 10px;
+      }
+      }
+    }
   }
-
   .products {
     width: auto;
     .product-card {
